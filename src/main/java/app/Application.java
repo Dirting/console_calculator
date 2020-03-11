@@ -63,6 +63,7 @@ public class Application {
 
 
         Pattern pat=Pattern.compile("\\d+");
+        Pattern pat=Pattern.compile("\\d+");
         Matcher matcher=pat.matcher(command);
         String answer = null;
         while (matcher.find()) {
